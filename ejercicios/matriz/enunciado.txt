@@ -1,0 +1,13 @@
+Se tiene un archivo de entrada (potencia.txt) en donde cada fila consta de una vecha y tres valores.
+Cada valro está separado por un TAB.
+Se quiere obtener un archivo de salida con el formato:
+
+fecha1 valor1
+fecha1 valor2
+fecha1 valor3
+fecha2 valor4
+fecha2 valor5
+fecha2 valor6
+...
+
+Propuesta: usar el módulo csv
