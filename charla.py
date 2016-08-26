@@ -1,6 +1,8 @@
 import decimal
 import fractions
 
+TITULO = 'Python para programadores {X}'
+
 slide1 = "Agradecimiento"
 slide2 = "Presentación"
 slide3 = "Encuentas"
@@ -37,3 +39,6 @@ slides = {slide1: [], slide2: "libros", slide3: encuesta, slide4: [],
           slide5: [1j, dec, frac, list(), tuple(), set()],
           slide6: ["for", "while", "mas listas"], slide7: "args y kwargs",
           slide8: "decoradoes", slide9: "Muchas gracias!"}
+
+con_hijo = ['pedro', 'mariana', 'brenda', 'jose']
+mas_de_20k = ['pedro', 'ruben', 'susana', 'brenda', 'marta']
