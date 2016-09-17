@@ -1,8 +1,8 @@
 import random
 
-secreto = random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9])
+secreto = random.choice(range(1, 100))
 
-while int(input('Adiviná: ')) != secreto:
+while int(input('Adiviná (1-100): ')) != secreto:
     print('No!')
 
 print('Adivinaste!')

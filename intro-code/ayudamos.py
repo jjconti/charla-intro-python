@@ -1,6 +1,6 @@
 import random
 
-secreto = random.choice([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+secreto = random.choice(range(21))
 
 intento = int(input('Adiviná: '))
 while intento != secreto:
